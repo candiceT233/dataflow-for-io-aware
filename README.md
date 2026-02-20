@@ -51,6 +51,26 @@ source .venv/bin/activate
 pip install jupyter pandas matplotlib seaborn numpy
 ```
 
+### Environment setup (from this repo)
+
+This repository includes a pinned environment file and a setup script:
+- `requirements.txt`
+- `setup_python_env.sh`
+
+From the project root, run:
+
+```bash
+./setup_python_env.sh
+```
+
+Or create a custom venv directory name:
+
+```bash
+./setup_python_env.sh .venv-analysis
+```
+
+This will create the virtual environment, activate it during setup, upgrade `pip`, and install all packages from `requirements.txt`.
+
 ### Quick start (recommended)
 
 Use this workflow to run any notebook in this repo without rewriting paths each time:
