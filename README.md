@@ -10,7 +10,7 @@ It contains:
 ## 1) Folder Structure
 
 ```text
-dataflow-for-io-aware-scheduling/
+dataflow-for-io-aware/
 ├── 1000-genome/                  # Raw 1000 Genome trace artifacts (*.json)
 ├── 1000genome_plots/             # Generated 1000 Genome PDF plots
 ├── ddmd/
